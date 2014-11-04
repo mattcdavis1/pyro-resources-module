@@ -18,6 +18,13 @@ class RouteServiceProvider extends \Illuminate\Foundation\Support\Providers\Rout
     protected $scan = [];
 
     /**
+     * All of the module's route middleware keys.
+     *
+     * @var array
+     */
+    protected $middleware = [];
+
+    /**
      * Called before routes are registered.
      * Register any model bindings or pattern based filters.
      *
